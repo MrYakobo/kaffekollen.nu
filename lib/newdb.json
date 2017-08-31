@@ -1,0 +1,778 @@
+[{
+    "name": ["BRYGGKAFFE MELLANROST"],
+    "size": [450],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655321/185397.tiff"],
+    "price": [36.95],
+    "comparativePrice": [82.11]
+}, {
+    "name": ["KAFFE ECOLOGICO MELLANROST KRAV"],
+    "size": [425],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655392/185416.tiff"],
+    "price": [39.95],
+    "comparativePrice": [94]
+}, {
+    "name": ["ECO MELLANROST FAIRTRADE KRAV"],
+    "size": [450],
+    "brand": ["ARVID NORDQUIST"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1497808165/229272.tiff"],
+    "price": [44.95],
+    "comparativePrice": [99.89]
+}, {
+    "name": ["MELLANROST BRYGGKAFFE"],
+    "size": [500],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495600867/204707.tiff"],
+    "price": [38.95],
+    "comparativePrice": [77.9]
+}, {
+    "name": ["KAFFE MEZZO"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491780705/196359.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56],
+    "promos": [{
+        "EndAt": "2017-09-03T23:59:59+02:00",
+        "Id": 135075232,
+        "MedMeraText": "",
+        "MaxUseText": "",
+        "Medmera": false,
+        "Identifier": "",
+        "StartAt": "2017-08-28T08:00:00+02:00",
+        "Text": "Köp 2 st för 69.90 kr"
+    }]
+}, {
+    "name": ["BRYGGKAFFE MELLANROST EKO"],
+    "size": [450],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495635453/208938.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56]
+}, {
+    "name": ["BRYGGKAFFE MELLANROST EKO"],
+    "size": [450],
+    "brand": ["ÄNGLAMARK"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1489746734/191626.tiff"],
+    "price": [41.5],
+    "comparativePrice": [92.22]
+}, {
+    "name": ["BRYGGKAFFE MELLANROST"],
+    "size": [500],
+    "brand": ["COOP"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444348961/62593.tiff"],
+    "price": [33.5],
+    "comparativePrice": [67]
+}, {
+    "name": ["KAFFE FIKASTUND"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491813097/196405.tiff"],
+    "price": [37.5],
+    "comparativePrice": [83.33]
+}, {
+    "name": ["KAFFE EL-BRYGG MELLANROST"],
+    "size": [450],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655363/185410.tiff"],
+    "price": [36.95],
+    "comparativePrice": [82.11]
+}, {
+    "name": ["ESPRESSO ROSSA"],
+    "size": [250],
+    "brand": ["LAVAZZA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498119321/244954.tiff"],
+    "price": [37.5],
+    "comparativePrice": [150]
+}, {
+    "name": ["KAFFE BISTRO MELLANROST"],
+    "size": [450],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655361/185409.tiff"],
+    "price": [36.95],
+    "comparativePrice": [82.11]
+}, {
+    "name": ["HARMONI  BRYGGKAFFE EKO"],
+    "size": [450],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498744115/251243.tiff"],
+    "price": [51.95],
+    "comparativePrice": [115.45]
+}, {
+    "name": ["BRYGGKAFFE MELLANROST COLOMBIA"],
+    "size": [450],
+    "brand": ["COOP"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1489592052/191206.tiff"],
+    "price": [33.5],
+    "comparativePrice": [74.44]
+}, {
+    "name": ["KAFFE MILEA MELLANROST"],
+    "size": [425],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655393/185417.tiff"],
+    "price": [38.95],
+    "comparativePrice": [91.65]
+}, {
+    "name": ["KAFFE KOFFEINFRI MELLANROST"],
+    "size": [425],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655311/185392.tiff"],
+    "price": [48.95],
+    "comparativePrice": [115.18]
+}, {
+    "name": ["KAFFE MELLAN BRYGG"],
+    "size": [500],
+    "brand": ["X-TRA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491823911/196533.tiff"],
+    "price": [28.95],
+    "comparativePrice": [57.9]
+}, {
+    "name": ["KAFFE COLOMBIA MELLANROST"],
+    "size": [425],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1480939313/178085.tiff"],
+    "price": [38.95],
+    "comparativePrice": [91.65]
+}, {
+    "name": ["DELICATO BRYGGKAFFE MELLANROST"],
+    "size": [500],
+    "brand": ["LAVAZZA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498125986/246005.tiff"],
+    "price": [51.95],
+    "comparativePrice": [103.9]
+}, {
+    "name": ["CLASSICO BRYGGKAFFE"],
+    "size": [500],
+    "brand": ["LAVAZZA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498125752/245988.tiff"],
+    "price": [51.95],
+    "comparativePrice": [103.9]
+}, {
+    "name": ["MELLANMÖRK BRYGGKAFFE"],
+    "size": [500],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495600668/204691.tiff"],
+    "price": [38.95],
+    "comparativePrice": [77.9]
+}, {
+    "name": ["SERENAD BRYGGKAFFE EKO"],
+    "size": [450],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444218385/57854.tiff"],
+    "price": [51.95],
+    "comparativePrice": [115.45]
+}, {
+    "name": ["CAFE ORGANICO MELLANBRYGG KRAV FAIRTRADE"],
+    "size": [500],
+    "brand": ["CAFE ORGANICO"],
+    "img": ["/ProductImages/C2/Small/7392736060902.jpg"],
+    "price": [51.95],
+    "comparativePrice": [103.9]
+}, {
+    "name": ["BIO 100 % ARABICA FAIRTRADE EKO "],
+    "size": [250],
+    "brand": ["Caffe Molinari"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1449562012/117419.tiff"],
+    "price": [57.5],
+    "comparativePrice": [230]
+}, {
+    "name": ["KAFFE MELLAN BRYGG"],
+    "size": [500],
+    "brand": ["IDEE KAFFE"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498138093/248266.tiff"],
+    "price": [49.95],
+    "comparativePrice": [99.9]
+}, {
+    "name": ["KAFFE MELLANROST"],
+    "size": [450],
+    "brand": ["LINDVALLS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1477456021/169325.tiff"],
+    "price": [34.95],
+    "comparativePrice": [77.67]
+}, {
+    "name": ["KAFFE SKÅNEROST"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1497847840/230905.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56],
+    "promos": [{
+        "EndAt": "2017-09-03T23:59:59+02:00",
+        "Id": 135075232,
+        "MedMeraText": "",
+        "MaxUseText": "",
+        "Medmera": false,
+        "Identifier": "",
+        "StartAt": "2017-08-28T08:00:00+02:00",
+        "Text": "Köp 2 st för 69.90 kr"
+    }]
+}, {
+    "name": ["KAFFE HAZIENDA FAIRTRADE KRAV"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491780693/196356.tiff"],
+    "price": [55.95],
+    "comparativePrice": [124.34]
+}, {
+    "name": ["KAFFE REKO MÖRKT FAIRTRADE KRAV"],
+    "size": [450],
+    "brand": ["ARVID NORDQUIST"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1497809549/229352.tiff"],
+    "price": [44.95],
+    "comparativePrice": [99.89]
+}, {
+    "name": ["KAFFE MOLLBERGS BLANDNING"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491813075/196401.tiff"],
+    "price": [42.95],
+    "comparativePrice": [95.44]
+}, {
+    "name": ["KAFFE INTENZO"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491780671/196351.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56],
+    "promos": [{
+        "EndAt": "2017-09-03T23:59:59+02:00",
+        "Id": 135075232,
+        "MedMeraText": "",
+        "MaxUseText": "",
+        "Medmera": false,
+        "Identifier": "",
+        "StartAt": "2017-08-28T08:00:00+02:00",
+        "Text": "Köp 2 st för 69.90 kr"
+    }]
+}, {
+    "name": ["KAFFE BLUE JAVA"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491780689/196355.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56],
+    "promos": [{
+        "EndAt": "2017-09-03T23:59:59+02:00",
+        "Id": 135075232,
+        "MedMeraText": "",
+        "MaxUseText": "",
+        "Medmera": false,
+        "Identifier": "",
+        "StartAt": "2017-08-28T08:00:00+02:00",
+        "Text": "Köp 2 st för 69.90 kr"
+    }]
+}, {
+    "name": ["BRYGGKAFFE MÖRKROST EKO"],
+    "size": [450],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491503484/195500.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56]
+}, {
+    "name": ["KAFFE ECOLOGICO MÖRKROST KRAV"],
+    "size": [425],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655313/185393.tiff"],
+    "price": [39.95],
+    "comparativePrice": [94]
+}, {
+    "name": ["WANYAMA CLASSIC BRYGGKAFFE"],
+    "size": [500],
+    "brand": ["ARVID NORDQUIST"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1497854874/231004.tiff"],
+    "price": [41.5],
+    "comparativePrice": [83]
+}, {
+    "name": ["KAFFE MÖRKROST KRAV FAIRTRADE"],
+    "size": [500],
+    "brand": ["ÄNGLAMARK"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444342533/62161.tiff"],
+    "price": [44.95],
+    "comparativePrice": [89.9]
+}, {
+    "name": ["KAFFE PASIÓN COLOMBIA"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491780698/196357.tiff"],
+    "price": [42.95],
+    "comparativePrice": [95.44]
+}, {
+    "name": ["KAFFEMJÖLK BARISTA LATTE ART 2.6% EKO "],
+    "size": [1000],
+    "brand": ["ARLA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1497848594/230930.tiff"],
+    "price": [15.5],
+    "comparativePrice": [15.5]
+}, {
+    "name": ["BRYGGKAFFE LÄTT MÖRKROST"],
+    "size": [450],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655370/185412.tiff"],
+    "price": [36.95],
+    "comparativePrice": [82.11]
+}, {
+    "name": ["BRYGGKAFFE MÖRKROST SANTOS"],
+    "size": [450],
+    "brand": ["COOP"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1489997543/191749.tiff"],
+    "price": [33.5],
+    "comparativePrice": [74.44]
+}, {
+    "name": ["KAFFE FORZA!"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491780682/196354.tiff"],
+    "price": [42.95],
+    "comparativePrice": [95.44]
+}, {
+    "name": ["KAFFE BLACK VELVET"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491780678/196353.tiff"],
+    "price": [42.95],
+    "comparativePrice": [95.44]
+}, {
+    "name": ["KAFFE ESPRESSO NERO "],
+    "size": [250],
+    "brand": ["LAVAZZA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498119335/244956.tiff"],
+    "price": [37.5],
+    "comparativePrice": [150]
+}, {
+    "name": ["CRESCENDO BRYGGKAFFE MÖRKROST"],
+    "size": [450],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1435341460/40383.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56]
+}, {
+    "name": ["KHARISMA BRYGGKAFFE MÖRKROST"],
+    "size": [450],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491503495/195504.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56]
+}, {
+    "name": ["PREZZO PRESSOKAFFE"],
+    "size": [500],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491503512/195508.tiff"],
+    "price": [38.95],
+    "comparativePrice": [77.9]
+}, {
+    "name": ["KAFFE MELLANMÖRK SOMMAR"],
+    "size": [500],
+    "brand": ["CLASSIC"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1497810172/229393.tiff"],
+    "price": [41.5],
+    "comparativePrice": [83]
+}, {
+    "name": ["KAFFE INTENSIVO EXTRA MÖRKROST"],
+    "size": [425],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655318/185395.tiff"],
+    "price": [38.95],
+    "comparativePrice": [91.65]
+}, {
+    "name": ["KAFFEBÖNOR ESPRESSO DELLA CASA"],
+    "size": [200],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1497808278/229277.tiff"],
+    "price": [22.95],
+    "comparativePrice": [114.75]
+}, {
+    "name": ["JUBILEUM BRYGGKAFFE"],
+    "size": [450],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1491503524/195509.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56]
+}, {
+    "name": ["KAFFE ESPRESSO ROSSA"],
+    "size": [250],
+    "brand": ["LAVAZZA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498127429/246132.tiff"],
+    "price": [43.95],
+    "comparativePrice": [175.8]
+}, {
+    "name": ["KAFFE DARK FOREST"],
+    "size": [450],
+    "brand": ["ZOEGAS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444582601/64194.tiff"],
+    "price": [42.95],
+    "comparativePrice": [95.44]
+}, {
+    "name": ["BRYGGKAFFE MÖRKROST FAIRTRADE KRAV"],
+    "size": [450],
+    "brand": ["EQUALE"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1455609067/133304.tiff"],
+    "price": [57.5],
+    "comparativePrice": [127.78]
+}, {
+    "name": ["KAFFE AROMATICO LÄTT MÖRKROST"],
+    "size": [425],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655309/185391.tiff"],
+    "price": [38.95],
+    "comparativePrice": [91.65]
+}, {
+    "name": ["MAGNIFIKA BRYGGKAFFE"],
+    "size": [450],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498744103/251242.tiff"],
+    "price": [38.95],
+    "comparativePrice": [86.56]
+}, {
+    "name": ["KAFFE ESPRESSO NERO"],
+    "size": [250],
+    "brand": ["LAVAZZA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498127488/246135.tiff"],
+    "price": [43.95],
+    "comparativePrice": [175.8]
+}, {
+    "name": ["KAFFE LUNGO LEGGERO NO 4 MÖRKROST"],
+    "size": [55],
+    "brand": ["LAVAZZA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498125806/245992.tiff"],
+    "price": [36.95],
+    "comparativePrice": [3.7]
+}, {
+    "name": ["BRYGGKAFFE MÖRKROST KRAV"],
+    "size": [500],
+    "brand": ["CAFE ORGANICO"],
+    "img": ["/ProductImages/C2/Small/7392736060704.jpg"],
+    "price": [51.95],
+    "comparativePrice": [103.9]
+}, {
+    "name": ["INTENSO BRYGGKAFFE MÖRKROST"],
+    "size": [500],
+    "brand": ["LAVAZZA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498125701/245986.tiff"],
+    "price": [51.95],
+    "comparativePrice": [103.9]
+}, {
+    "name": ["DONKAFFE"],
+    "size": [500],
+    "brand": ["PLIVIT TRADE"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498128588/246262.tiff"],
+    "price": [42.5],
+    "comparativePrice": [85]
+}, {
+    "name": ["KAFFE LUNGO AVVOLGENTE MÖRKROST"],
+    "size": [55],
+    "brand": ["LAVAZZA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498125844/245994.tiff"],
+    "price": [36.95],
+    "comparativePrice": [3.7]
+}, {
+    "name": ["LYX SNABBKAFFE MELLANROST REFILL"],
+    "size": [200],
+    "brand": ["NESCAFÉ"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495587085/202655.tiff"],
+    "price": [54.95],
+    "comparativePrice": [274.75]
+}, {
+    "name": ["SNABBKAFFE REFILL KRAV FAIRTRADE"],
+    "size": [200],
+    "brand": ["ÄNGLAMARK"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495601721/204875.tiff"],
+    "price": [61.95],
+    "comparativePrice": [309.75]
+}, {
+    "name": ["SNABBKAFFE ORIGINAL MELLANROST REFILL"],
+    "size": [200],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1481124661/178576.tiff"],
+    "price": [54.95],
+    "comparativePrice": [274.75]
+}, {
+    "name": ["SNABBKAFFE GLASBURK"],
+    "size": [200],
+    "brand": ["COOP"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495604301/205250.tiff"],
+    "price": [47.5],
+    "comparativePrice": [237.5],
+    "promos": [{
+        "EndAt": "2035-12-31T23:59:59+01:00",
+        "Id": 107257294,
+        "MedMeraText": "",
+        "MaxUseText": "",
+        "Medmera": false,
+        "Identifier": "",
+        "StartAt": "2016-09-05T00:00:00+02:00",
+        "Text": "Köp 2 st för 69.00 kr"
+    }]
+}, {
+    "name": ["REFILL SNABBKAFFE"],
+    "size": [200],
+    "brand": ["X-TRA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444241149/60319.tiff"],
+    "price": [31.95],
+    "comparativePrice": [159.75]
+}, {
+    "name": ["INSTANT COFFEE MEDIUM"],
+    "size": [200],
+    "brand": ["COOP"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444081333/53775.tiff"],
+    "price": [41.5],
+    "comparativePrice": [207.5],
+    "promos": [{
+        "EndAt": "2035-12-31T23:59:59+01:00",
+        "Id": 107257294,
+        "MedMeraText": "",
+        "MaxUseText": "",
+        "Medmera": false,
+        "Identifier": "",
+        "StartAt": "2016-09-05T00:00:00+02:00",
+        "Text": "Köp 2 st för 69.00 kr"
+    }]
+}, {
+    "name": ["LYX MÖRKROST SNABBKAFFE REFILL"],
+    "size": [200],
+    "brand": ["NESCAFÉ"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495581424/202089.tiff"],
+    "price": [54.95],
+    "comparativePrice": [274.75]
+}, {
+    "name": ["SNABBKAFFE NESCAFE LYX MELLANROST"],
+    "size": [200],
+    "brand": ["NESCAFÉ"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495586629/202529.tiff"],
+    "price": [73.95],
+    "comparativePrice": [369.75]
+}, {
+    "name": ["SNABBKAFFE COLOMBIA MELLANROST REFILL"],
+    "size": [200],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655383/185415.tiff"],
+    "price": [54.95],
+    "comparativePrice": [274.75]
+}, {
+    "name": ["SNABBKAFFE MELLANROST REFILL EKO"],
+    "size": [150],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655373/185413.tiff"],
+    "price": [56.95],
+    "comparativePrice": [379.66]
+}, {
+    "name": ["SNABBKAFFE KOFFEINFRITT"],
+    "size": [100],
+    "brand": ["NESCAFÉ"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495611664/206176.tiff"],
+    "price": [54.95],
+    "comparativePrice": [549.5]
+}, {
+    "name": ["CAPPUCCINO BURK"],
+    "size": [225],
+    "brand": ["NESCAFE"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498115404/244499.tiff"],
+    "price": [37.95],
+    "comparativePrice": [168.67]
+}, {
+    "name": ["CAPPUCCINO ORIGINAL"],
+    "size": [144],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498134393/247777.tiff"],
+    "price": [19.95],
+    "comparativePrice": [2]
+}, {
+    "name": ["INSTANT COFFEE DARK"],
+    "size": [200],
+    "brand": ["COOP"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444080545/53676.tiff"],
+    "price": [41.5],
+    "comparativePrice": [207.5],
+    "promos": [{
+        "EndAt": "2035-12-31T23:59:59+01:00",
+        "Id": 107257294,
+        "MedMeraText": "",
+        "MaxUseText": "",
+        "Medmera": false,
+        "Identifier": "",
+        "StartAt": "2016-09-05T00:00:00+02:00",
+        "Text": "Köp 2 st för 69.00 kr"
+    }]
+}, {
+    "name": ["SNABBKAFFE ORIGINAL REFILL"],
+    "size": [200],
+    "brand": ["NESCAFÉ"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495625190/207389.tiff"],
+    "price": [52.95],
+    "comparativePrice": [264.75]
+}, {
+    "name": ["SNABBKAFFE KRAV FAIRTRADE"],
+    "size": [200],
+    "brand": ["ÄNGLAMARK"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495604318/205252.tiff"],
+    "price": [71.95],
+    "comparativePrice": [359.75]
+}, {
+    "name": ["HARMONI INSTANT EKO"],
+    "size": [100],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444239300/60116.tiff"],
+    "price": [39.95],
+    "comparativePrice": [399.5]
+}, {
+    "name": ["SNABBKAFFE NESCAFE LYX MELLANROST"],
+    "size": [100],
+    "brand": ["NESCAFÉ"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495568798/200383.tiff"],
+    "price": [48.95],
+    "comparativePrice": [489.5]
+}, {
+    "name": ["LYX SNABBKAFFE MELLANROST"],
+    "size": [50],
+    "brand": ["NESCAFE"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1495615589/206532.tiff"],
+    "price": [32.95],
+    "comparativePrice": [659]
+}, {
+    "name": ["TASSIMO GEVALIA CAPPUCCINO 8-PACK"],
+    "size": [272],
+    "brand": ["TASSIMO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498136580/247972.tiff"],
+    "price": [44.95],
+    "comparativePrice": [5.62]
+}, {
+    "name": ["ICE COFFEE"],
+    "size": [128],
+    "brand": ["NESCAFE"],
+    "img": ["https://res.cloudinary.com/coopsverige/image/upload/v1493299287/cooponline/Dryck/nescafffe.png"],
+    "price": [23.5],
+    "comparativePrice": [183.6]
+}, {
+    "name": ["LATTE MACCHIATO 8 - ST"],
+    "size": [148],
+    "brand": ["NESCAFÉ"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498114705/244469.tiff"],
+    "price": [26.95],
+    "comparativePrice": [3.37]
+}, {
+    "name": ["SNABBKAFFE DARK MÖRKROST REFILL"],
+    "size": [200],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1485655377/185414.tiff"],
+    "price": [54.95],
+    "comparativePrice": [274.75]
+}, {
+    "name": ["GEVALIA LATTE MACCHIATO LESS SWEET"],
+    "size": [362],
+    "brand": ["TASSIMO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498133311/247664.tiff"],
+    "price": [57.95],
+    "comparativePrice": [7.24]
+}, {
+    "name": ["LYX RUND SNABBKAFFE"],
+    "size": [150],
+    "brand": ["NESCAFE"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498125965/246004.tiff"],
+    "price": [54.95],
+    "comparativePrice": [366.33]
+}, {
+    "name": ["CAPPUCCINO DAIM"],
+    "size": [168],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498134028/247739.tiff"],
+    "price": [24.95],
+    "comparativePrice": [3.11]
+}, {
+    "name": ["SNABBKAFFE MELLANROST"],
+    "size": [200],
+    "brand": ["GEVALIA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444245787/60854.tiff"],
+    "price": [67.5],
+    "comparativePrice": [337.5]
+}, {
+    "name": ["GEVALIA MELLANROST ORIGINAL"],
+    "size": [16],
+    "brand": ["TASSIMO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498136452/247968.tiff"],
+    "price": [44.95],
+    "comparativePrice": [2.81]
+}, {
+    "name": ["GEVALIA DARK MÖRKROST 16 ST"],
+    "size": [144],
+    "brand": ["TASSIMO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498136605/247973.tiff"],
+    "price": [44.95],
+    "comparativePrice": [2.81]
+}, {
+    "name": ["CAFE AU LAIT KAPSLAR"],
+    "size": [16],
+    "brand": ["DOLCE GUSTO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498118865/244902.tiff"],
+    "price": [56.95],
+    "comparativePrice": [7.12]
+}, {
+    "name": ["GEVALIA EBONY 16 ST"],
+    "size": [144],
+    "brand": ["TASSIMO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498136636/247974.tiff"],
+    "price": [44.95],
+    "comparativePrice": [2.81]
+}, {
+    "name": ["LATTE MACCHIATO"],
+    "size": [390],
+    "brand": ["TASSIMO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498135843/247903.tiff"],
+    "price": [57.95],
+    "comparativePrice": [7.24]
+}, {
+    "name": ["ZOEGAS SKÅNEROST KAPSLAR"],
+    "size": [16],
+    "brand": ["DOLCE GUSTO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498117094/244756.tiff"],
+    "price": [56.95],
+    "comparativePrice": [3.56]
+}, {
+    "name": ["CAFFE GRAND INTENSO KAPSLAR"],
+    "size": [16],
+    "brand": ["DOLCE GUSTO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498119147/244917.tiff"],
+    "price": [56.95],
+    "comparativePrice": [3.56]
+}, {
+    "name": ["ESPRESSO BARISTA KAPSLAR"],
+    "size": [16],
+    "brand": ["DOLCE GUSTO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498119804/245047.tiff"],
+    "price": [56.95],
+    "comparativePrice": [3.56]
+}, {
+    "name": ["ZOEGAS MOLLBERGSBLANDNING KAPSLAR"],
+    "size": [16],
+    "brand": ["DOLCE GUSTO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1498118987/244909.tiff"],
+    "price": [56.95],
+    "comparativePrice": [3.56]
+}, {
+    "name": ["CAPPUCCINO KAPSLAR"],
+    "size": [16],
+    "brand": ["DOLCE GUSTO"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1497515277/218713.tiff"],
+    "price": [56.95],
+    "comparativePrice": [3.56]
+}, {
+    "name": ["JUBILEUM BRYGG KAPSLAR"],
+    "size": [16],
+    "brand": ["LÖFBERGS LILA"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444131756/54717.tiff"],
+    "price": [57.5],
+    "comparativePrice": [3.59]
+}, {
+    "name": ["ETHIOPIAN SIDAMO KAPSLAR"],
+    "size": [57],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1478625263/171993.tiff"],
+    "price": [39.95],
+    "comparativePrice": [700.88]
+}, {
+    "name": ["MÖRKROST KAPSLAR EKO"],
+    "size": [16],
+    "brand": ["LÖFBERGS"],
+    "img": ["http://res.cloudinary.com/coopsverige/image/upload/v1444584626/64357.tiff"],
+    "price": [57.5],
+    "comparativePrice": [3.59]
+}]
