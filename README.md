@@ -11,14 +11,32 @@ Backend:
 
 - En JS-fil för varje affär, en "modul" om man så vill kalla det.
     + Input: Postnummer
-    + Return:
+    + Return: Array av objekt med följande innehåll:
 
-    name: String
-    brand: String
-    size: Number
-    img: String
-    price: Number
-    compareprice: Number
-    type: String
+        name
+        weight
+        price
+        img: {
+            full
+            preview
+        },
+        brand
+        compareprice
+        eco
+        type
+        coffeinfree
+        promo?: {
+            amount
+            weight
+            compareprice
+            price
+            savings
+            label
+        }
 
-name, brand och type måste standariseras på något sätt, så de presenteras likadant.
+
+name, brand och type måste standariseras på något sätt, så de presenteras likadant i sökfält och dylikt.
+
+## TODO:
+Coop.js:
+    Fixa type så att den avgör vilken typ det är.
