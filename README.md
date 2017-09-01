@@ -36,3 +36,22 @@ Backend:
 
 
 name, brand och type måste standariseras på något sätt, så de presenteras likadant i sökfält och dylikt.
+
+## Todo
+ICA har en helt egen sida för butikens specialpriser. Indexera baserat på dessa.
+
+Hitta någon modul som mha postnummer kan spotta ut närmaste städer på en viss radie, specificerad av användaren...
+Denna används på respektive matkedjas hemsida för att hitta stadens olika butiker, där erbjudanden visas.
+
+För ICA:
+
+    var stad = citify(postnummer)
+
+    https://www.ica.se/butiker/${stad}/ > for(link in storeLinks){
+        var erbjudanden = link.replace('/start','/erbjudanden')
+        x(erbjudanden, (body)=>{
+            //hantera samtliga resultat, sök efter "kaffe"
+        })
+    }
+
+Om inga erbjudanden på kaffe hittas, visa ordinarie databas (gäller över alla butiker (tror jag))
