@@ -36,7 +36,3 @@ Backend:
 
 
 name, brand och type måste standariseras på något sätt, så de presenteras likadant i sökfält och dylikt.
-
-## TODO:
-Coop.js:
-    Fixa type så att den avgör vilken typ det är.

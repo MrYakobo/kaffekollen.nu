@@ -1,7 +1,7 @@
 En db-fil ska innehålla följande information:
 
     name
-    weight
+    weight (gram)
     price
     img: {
         full
