@@ -73,10 +73,10 @@
                 </div>
                 <div class="columns is-mobile is-multiline is-gapless" v-show="currentTab === 'other'">
                     <div class="column card is-half">
-                        <togglebtn :active="query.eco" style="width:100%" @toggle="query.eco = !query.eco">Ekologiskt</togglebtn>
+                        <togglebtn :active="!query.eco" style="width:100%" @toggle="query.eco = !query.eco">Ekologiskt</togglebtn>
                     </div>
                     <div class="column card is-half">
-                        <togglebtn :active="query.coffeinfree" style="width:100%" @toggle="query.coffeinfree = !query.coffeinfree">Koffeinfritt </togglebtn>
+                        <togglebtn :active="!query.coffeinfree" style="width:100%" @toggle="query.coffeinfree = !query.coffeinfree">Koffeinfritt </togglebtn>
                     </div>
                 </div>
             </div>
@@ -84,12 +84,17 @@
         <main class="box">
             <!-- Decides between showing the frontpage and search results as default -->
             <div v-show="viewFrontpage" class="columns is-multiline">
-                <h1 class="title is-1 column is-12">Aktuella erbjudanden</h1>
+                <h1 class="title is-1 column is-12 has-text-success">Aktuella erbjudanden:</h1>
                 <result v-for="(result, i) in frontpage" class="column is-3" :key="i" :res="result"></result>
             </div>
             <div v-show="!viewFrontpage" class="columns is-multiline">
-                <h1 class="title is-1 column is-12">Sökresultat</h1>
-                <result v-for="(result, i) in results" class="column is-3" :key="i" :res="result"></result>
+                <h1 class="title is-1 column is-12 has-text-success">Sökresultat:</h1>
+                <template v-show="results.length>0">
+                    <result v-for="(result, i) in results" class="column is-3" :key="i" :res="result"></result>
+                </template>
+                <div class="column is-12" v-show="results.length===0">
+                    <h2 class="subtitle is-4">Din sökning gav inga resultat.</h2>
+                </div>
             </div>
         </main>
         <footer class="box">

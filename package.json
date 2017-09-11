@@ -12,7 +12,8 @@
     "build:dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
     "test": "node server.js",
     "build:db": "cd lib && node coop.js && node willys.js && node db2postgres.js && npm run pgimport",
-    "pgimport": "sudo -u postgres psql coffeedb < lib/db.pgsql"
+    "pgimport": "sudo -u postgres psql coffeedb < lib/db.pgsql",
+    "rebuild:db": "cd lib && node coop.js --download && node willys.js --download && node db2postgres.js && npm run pgimport"
   },
   "keywords": [],
   "author": "",
