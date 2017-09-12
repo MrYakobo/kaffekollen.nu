@@ -53,14 +53,18 @@
 
         <aside class="box">
             <h3 class="subtitle is-4">Filtrera resultat</h3>
-            <div class="tabs">
+            <div class="tabs is-boxed">
                 <ul>
-                    <li :class="tabclass('brands')"><a @click="currentTab = 'brands'">Märken</a></li>
-                    <li :class="tabclass('types')"><a @click="currentTab = 'types'">Kaffetyp</a></li>
-                    <li :class="tabclass('other')"><a @click="currentTab = 'other'">Övrigt</a></li>
+                    <li :class="tabclass('brands')">
+                        <a @click="currentTab = 'brands'">Märken &nbsp;<span v-show="query.brands.length>0" class="tag is-rounded is-success">{{query.brands.length}}</span></a>
+                    </li>
+                    <li :class="tabclass('types')">
+                        <a @click="currentTab = 'types'">Kaffetyp &nbsp;<span v-show="query.types.length>0" class="tag is-rounded is-success">{{query.types.length}}</span></a>
+                    </li>
+                    <li :class="tabclass('other')"><a @click="currentTab = 'other'">Övrigt  &nbsp;<span v-show="query.eco || query.coffeinfree" class="tag is-rounded is-success">{{query.eco + query.coffeinfree}}</span></a></li>
                 </ul>
             </div>
-            <div style="overflow-y:auto;max-height:60vh;padding-right:10px">
+            <div style="overflow-y:auto;max-height:80vh;padding-right:10px">
                 <div class="columns is-mobile is-multiline is-gapless" v-show="currentTab === 'brands'">
                     <div class="column card" v-for="(brand, i) in staticData.brands">
                         <togglebtn style="width:100%" :active="query.brands.indexOf(brand) > -1" @toggle="toggle('brands',brand)">{{brand}}</togglebtn>
@@ -73,10 +77,10 @@
                 </div>
                 <div class="columns is-mobile is-multiline is-gapless" v-show="currentTab === 'other'">
                     <div class="column card is-half">
-                        <togglebtn :active="!query.eco" style="width:100%" @toggle="query.eco = !query.eco">Ekologiskt</togglebtn>
+                        <togglebtn :active="query.eco" style="width:100%" @toggle="query.eco = !query.eco">Ekologiskt</togglebtn>
                     </div>
                     <div class="column card is-half">
-                        <togglebtn :active="!query.coffeinfree" style="width:100%" @toggle="query.coffeinfree = !query.coffeinfree">Koffeinfritt </togglebtn>
+                        <togglebtn :active="query.coffeinfree" style="width:100%" @toggle="query.coffeinfree = !query.coffeinfree">Koffeinfritt </togglebtn>
                     </div>
                 </div>
             </div>
@@ -97,8 +101,9 @@
                 </div>
             </div>
         </main>
-        <footer class="box">
-            <h5 class="subtitle is-5">&copy; Jakob Lindskog {{year}}</h5>
+        <footer class="box columns">
+            <h5 class="column subtitle is-5">Jakob Lindskog, {{year}}</h5>
+            <p class="column subtitle is-5">Senast uppdaterad för {{date}} sen</p>
         </footer>
     </div>
 </template>
@@ -121,14 +126,20 @@
     import togglebtn from './togglebtn.vue'
     import store from 'store'
 
+    import city from './city.vue'
+    import result from './result.vue'
+
     var app = {
         name: 'app',
         components: {
-            togglebtn: togglebtn
+            togglebtn: togglebtn,
+            result: result,
+            city: city
         },
         data() {
             return {
                 io: {},
+                date: '',
                 currentTab: 'brands',
                 frontpage: [],
                 results: [],
@@ -198,6 +209,9 @@
                     })
                     this.io.on('frontpage', data => {
                         this.frontpage = JSON.parse(data)
+                    })
+                    this.io.on('date', date=>{
+                        this.date = JSON.parse(date)
                     })
                 } else {
                     this.staticData = JSON.parse(
