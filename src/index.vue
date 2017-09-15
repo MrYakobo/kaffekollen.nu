@@ -1,85 +1,76 @@
 <style scoped>
-    .grid-index {
-        display: grid;
-        grid-template-rows: 1fr [title] auto;
-        grid-template-columns: 1fr [label] 150px [input] 80px [button];
-        grid-template-areas: "title title title" "label input button";
-        grid-row-gap: 0px;
-        grid-column-gap: 10px
-    }
+.grid-index {
+  /*display: grid;*/
+  /*grid-template-rows: 1fr [title] auto;*/
+  /*grid-template-columns: 1fr [label] 150px [input] 80px [button];*/
+  /*grid-template-columns: 1fr [title];*/
+  /*grid-template-areas: "title title title" "label input button";*/
+  /*grid-row-gap: 0px;*/
+  /*grid-column-gap: 10px*/
+}
 
-    h1.title {
-        grid-area: title
-    }
+h1.title {
+  grid-area: title
+}
 
-    input {
-        grid-area: input
-    }
+input {
+  grid-area: input
+}
 
-    button {
-        grid-area: button
-    }
+button {
+  grid-area: button
+}
 
-    p {
-        grid-area: label
-    }
+p {
+  grid-area: label
+}
 </style>
 <template>
-    <div class="">
-        <div class="container" v-if="true">
-            <div class="box grid-index">
-                <h1 class="title is-1">Kaffekollen.nu</h1>
-                <p>Välkommen! Skriv in en postnummer/adress här för att kunna söka på lokala kaffeerbjudanden.</p>
-                <input type="text" class="input" v-model="query">
-                <!-- <dropdown></dropdown> -->
-                <button :class="['button is-success is-outlined', loading ? 'is-loading' : '']" @click="search">Sök</button>
-            </div>
-            <div class="modal">
-                <!-- search and list the closest cities -->
-            </div>
+<div>
+    <div class="container" v-if="!ok">
+      <div class="box grid-index">
+        <h1 class="title is-1">Kaffekollen.nu</h1>
+        <div class="section">
+          <p>Hej, och varmt välkommen till Kaffekollen.nu! För att kunna erbjuda lokala priser så rekommenderar vi på Kaffekollen att du skriver in var du befinner dig eller kommer att befinna dig när du handlar ditt kaffe.</p>
         </div>
-        <app v-else></app>
+        <mapsquery @done="done"></mapsquery>
+      </div>
     </div>
+    <app v-else @choose="ok=false"></app>
+</div>
 </template>
 <script>
-    const online = location.href.indexOf('5000')>-1
+// const online = location.href.indexOf('5000') > -1
+const online = require('./isOnline.js')
 
-    import store from 'store'
-    import socketIO from 'socket.io-client'
+import store from 'store'
+import socketIO from 'socket.io-client'
 
-    import dropdown from './dropdown.vue'
+import app from './app.vue'
 
-    export default {
-        name: 'index',
-        components:{
-            dropdown: dropdown
-        },
-        data() {
-            return {
-                chooseCity: true,
-                io: {},
-                loading: false,
-                ok: typeof (store.get('city')) !== 'undefined',
-                city: store.get('city')
-            }
-        },
-        mounted() {
-            if(online)
-                this.io = socketIO();
-        },
-        methods: {
-            search() {
-                this.loading = true;
-                // this.io.emit('papi', JSON.stringify(this.query))
-            }
-        },
-        watch: {
-            city(newval) {
-                store.set('city', [newval])
-            },
-            query(newquery){
-                this.io.emit('autocomplete', JSON.stringify(newquery))
-            }
-        }
+import mapsquery from './mapsquery.vue'
+export default {
+  name: 'index',
+  components: {
+    mapsquery: mapsquery,
+    app: app
+  },
+  data() {
+    return {
+      io: {},
+      ok: typeof(store.get('cities')) !== 'undefined',
     }
+  },
+  mounted() {
+    if (online)
+      this.io = socketIO();
+  },
+  methods: {
+    done(cities){
+      // console.log(cities)
+      store.set('cities',cities);
+      this.ok = true
+    },
+  }
+}
 </script>

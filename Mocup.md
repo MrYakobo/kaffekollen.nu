@@ -33,3 +33,7 @@ EDIT: Man kan söka på Willys, men det är en väldigt konstig och specifik sea
 
 ## Ica
 På Ica kan man söka, vilket gör livet enkelt. Detta skall **verkligen** undersökas vidare.
+
+## SPA
+
+Kolla upp Vuex, behövs iallafall något för att kunna synkronisera `query.cities` i app.vue och `chosenCities` i mapsquery.

@@ -36,3 +36,6 @@ Backend:
 
 
 name, brand och type måste standariseras på något sätt, så de presenteras likadant i sökfält och dylikt.
+
+## Credits
+http://kodapan.se/geodata/ för data om Svenska städer
