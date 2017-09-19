@@ -56,10 +56,7 @@ if (!online) {
     minMatchCharLength: 1,
     keys: ["name"],
     sortFn: (a, b) => {
-      // console.log(a.item.population)
-      // console.log(b.item.population)
       return (a.score - a.item.population) - (b.score - b.item.population)
-      // (a.score-a.population) - (b.score-b.population)
     }
   })
 }
