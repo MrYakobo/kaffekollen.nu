@@ -10,7 +10,7 @@ var types =   [];
 var frontpage = [];
 
 var date;
-fs.stat('lib/db.pgsql', (err, stats) => {
+fs.stat('./lib/db.pgsql', (err, stats) => {
   date = moment(stats.mtime).toNow(true)
 })
 

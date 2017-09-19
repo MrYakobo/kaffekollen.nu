@@ -216,7 +216,6 @@
                     this.io.on('connect', () => {
                         this.connected = true
                     })
-
                     this.io.on('data', dat => {
                         this.staticData = dat
                     })
