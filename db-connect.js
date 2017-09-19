@@ -1,5 +1,9 @@
 const { Pool } = require('pg')
-const pool = new Pool(require('./lib/credentials').db)
+
+const pool = new Pool({
+    connectionString: process.env.DATABASE_URL,
+    ssl: true,
+});
 
 module.exports = (text, params)=>{
     return new Promise((res,rej)=>{
