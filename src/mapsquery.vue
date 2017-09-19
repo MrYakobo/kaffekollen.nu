@@ -45,7 +45,7 @@ import Fuse from 'fuse.js'
 import cache from './cache.js'
 import online from './isOnline.js'
 
-if (online) {
+if (!online) {
   var fuse = new Fuse(cache, {
     shouldSort: true,
     includeMatches: true,
