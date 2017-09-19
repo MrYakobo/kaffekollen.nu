@@ -49,13 +49,13 @@
                 <h3 class="subtitle is-3 is-inline">Mina platser: </h3>
                 <template v-if="query.cities.length>0">
                     <city v-for="(city, i) in query.cities" :readonly="true" :city="city" :i="i" :key="city.id" @deleteCity="deleteCity"></city>
-                <a href="#" @click="choose">Välj platser</a>
-              </template>
-              <template v-else>
-                <br>
-                <span>Här var det tomt. Om du vill, så kan du <a href="#" @click="choose">välja plats</a> igen.</span>
-                <!-- <button class="button is-dark" @click="this.emit('choose')">Välj plats</button> -->
-              </template>
+                    <a href="#" @click="choose">Välj platser</a>
+                </template>
+                <template v-else>
+                    <br>
+                    <span>Här var det tomt. Om du vill, så kan du <a href="#" @click="choose">välja plats</a> igen.</span>
+                    <!-- <button class="button is-dark" @click="this.emit('choose')">Välj plats</button> -->
+                </template>
             </div>
         </header>
 
@@ -117,11 +117,8 @@
     </div>
 </template>
 <script>
-    const online = location.href.indexOf('5000')>-1
-
     import _ from 'lodash'
 
-    // if (online)
     import socketIO from 'socket.io-client'
 
     import togglebtn from './togglebtn.vue'
@@ -168,9 +165,7 @@
             }
         },
         mounted() {
-            if (online)
-                this.io = socketIO()
-
+            this.io = socketIO()
             this.initSocket();
 
             //load from storage, if available
@@ -183,21 +178,17 @@
         },
         computed: {
             viewFrontpage() {
-                // if (online) return true
                 //if user has specified search filters, show the front page
-                // console.log(this.query)
-                // console.log(this.emptyQuery)
-
-                if (_.isEqual(_.omit(this.query,'cities'), this.emptyQuery))
+                if (_.isEqual(_.omit(this.query, 'cities'), this.emptyQuery))
                     return true
                 //else, show the results page
                 return false
             }
         },
         methods: {
-          choose(){
-            this.$emit('choose')
-          },
+            choose() {
+                this.$emit('choose')
+            },
             deleteCity(i) {
                 this.query.cities.splice(i, 1);
                 if (this.query.cities.length === 0)
@@ -212,28 +203,23 @@
                 return store.get(setting).indexOf(value) > -1
             },
             initSocket() {
-                if (online) {
-                    this.io.on('connect', () => {
-                        this.connected = true
-                    })
-                    this.io.on('data', dat => {
-                        this.staticData = dat
-                    })
-                    this.io.on('result', data => {
-                        this.results = data
-                        this.isLoading = false
-                    })
-                    this.io.on('frontpage', data => {
-                        this.frontpage = data
-                    })
-                    this.io.on('date', date=>{
-                        this.date = date
-                    })
-                } else {
-                    this.staticData = JSON.parse(
-                        '{"types":["bönor","brygg","kapsel","kok","press","snabb"],"brands":["Änglamark","Arvid Nordquist","Bontas","Cafego","Cafe Organico","Caffe Molinari","Caffe Musetti","Coop","Dolce Gusto","Eldorado","Equale","Garant","Gevalia","Grand Cru","Idee Kaffe","Lavazza","Lindvalls","Löfbergs","Melitta","Molinari","Musetti","Najjar","Nescafe","Nestle","Plivit Trade","Rostmästarens","Tassimo","Vispak","X-Tra","Zoegas"]}'
-                    )
-                    this.results = JSON.parse('[{"tablename":"coop","id":10,"name":"Kaffe Mezzo","weight":450,"price":"38.95","img_full":null,"img_preview":"http://res.cloudinary.com/coopsverige/image/upload/b_white,fl_progressive,q_90,c_lpad,g_center,h_200,w_200/v1491780705/196359.jpg","brand":"Zoegas","eco":false,"compareprice":"86.56","type":"brygg","coffeinfree":false,"promo":true,"promo_amount":2,"promo_weight":900,"promo_price":"69.9","promo_compareprice":78,"promo_savings":9,"promo_label":"Köp 2 st för 69.90 kr"},{"tablename":"coop","id":11,"name":"Kaffe Intenzo","weight":450,"price":"38.95","img_full":null,"img_preview":"http://res.cloudinary.com/coopsverige/image/upload/b_white,fl_progressive,q_90,c_lpad,g_center,h_200,w_200/v1491780671/196351.jpg","brand":"Zoegas","eco":false,"compareprice":"86.56","type":"brygg","coffeinfree":false,"promo":true,"promo_amount":2,"promo_weight":900,"promo_price":"69.9","promo_compareprice":78,"promo_savings":9,"promo_label":"Köp 2 st för 69.90 kr"},{"tablename":"coop","id":2,"name":"Kaffe Skånerost","weight":450,"price":"38.95","img_full":null,"img_preview":"http://res.cloudinary.com/coopsverige/image/upload/b_white,fl_progressive,q_90,c_lpad,g_center,h_200,w_200/v1497847840/230905.jpg","brand":"Zoegas","eco":false,"compareprice":"86.56","type":"brygg","coffeinfree":false,"promo":true,"promo_amount":2,"promo_weight":900,"promo_price":"69.9","promo_compareprice":78,"promo_savings":9,"promo_label":"Köp 2 st för 69.90 kr"},{"tablename":"coop","id":12,"name":"Kaffe Blue Java","weight":450,"price":"38.95","img_full":null,"img_preview":"http://res.cloudinary.com/coopsverige/image/upload/b_white,fl_progressive,q_90,c_lpad,g_center,h_200,w_200/v1491780689/196355.jpg","brand":"Zoegas","eco":false,"compareprice":"86.56","type":"brygg","coffeinfree":false,"promo":true,"promo_amount":2,"promo_weight":900,"promo_price":"69.9","promo_compareprice":78,"promo_savings":9,"promo_label":"Köp 2 st för 69.90 kr"},{"tablename":"coop","id":32,"name":"Instant Coffee Medium","weight":200,"price":"41.50","img_full":null,"img_preview":"http://res.cloudinary.com/coopsverige/image/upload/b_white,fl_progressive,q_90,c_lpad,g_center,h_200,w_200/v1444081333/53775.jpg","brand":"Coop","eco":false,"compareprice":"207.50","type":"brygg","coffeinfree":false,"promo":true,"promo_amount":2,"promo_weight":400,"promo_price":"69.0","promo_compareprice":173,"promo_savings":35,"promo_label":"Köp 2 st för 69.00 kr"},{"tablename":"coop","id":58,"name":"Instant Coffee Dark","weight":200,"price":"41.50","img_full":null,"img_preview":"http://res.cloudinary.com/coopsverige/image/upload/b_white,fl_progressive,q_90,c_lpad,g_center,h_200,w_200/v1444080545/53676.jpg","brand":"Coop","eco":false,"compareprice":"207.50","type":"brygg","coffeinfree":false,"promo":true,"promo_amount":2,"promo_weight":400,"promo_price":"69.0","promo_compareprice":173,"promo_savings":35,"promo_label":"Köp 2 st för 69.00 kr"},{"tablename":"coop","id":29,"name":"Snabbkaffe Glasburk","weight":200,"price":"47.50","img_full":null,"img_preview":"http://res.cloudinary.com/coopsverige/image/upload/b_white,fl_progressive,q_90,c_lpad,g_center,h_200,w_200/v1495604301/205250.jpg","brand":"Coop","eco":false,"compareprice":"237.50","type":"snabb","coffeinfree":false,"promo":true,"promo_amount":2,"promo_weight":400,"promo_price":"69.0","promo_compareprice":173,"promo_savings":65,"promo_label":"Köp 2 st för 69.00 kr"},{"tablename":"willys","id":11,"name":"Nescafé Gold","weight":150,"price":"44.90","img_full":"https://d2rfo6yapuixuu.cloudfront.net/hee/h9d/8856746590238/07613032546571.jpg_master_axfood_300","img_preview":"https://d2rfo6yapuixuu.cloudfront.net/hf1/h9a/8856746655774/07613032546571.jpg_master_axfood_100","brand":"Nescafe","eco":false,"compareprice":"299.35","type":"snabb","coffeinfree":false,"promo":true,"promo_amount":1,"promo_weight":150,"promo_price":"39.9","promo_compareprice":266,"promo_savings":5,"promo_label":"Spara 5,00 kr/st"},{"tablename":"willys","id":106,"name":"Cappuccino Original","weight":10,"price":"18.95","img_full":"https://d2rfo6yapuixuu.cloudfront.net/h28/h40/8862471127070/08711000510940.jpg_master_axfood_300","img_preview":"https://d2rfo6yapuixuu.cloudfront.net/h67/h3f/8862471192606/08711000510940.jpg_master_axfood_100","brand":"Gevalia","eco":false,"compareprice":"1.90","type":"kapsel","coffeinfree":false,"promo":false,"promo_amount":null,"promo_weight":null,"promo_price":null,"promo_compareprice":null,"promo_savings":null,"promo_label":null},{"tablename":"coop","id":54,"name":"Cappuccino Original","weight":144,"price":"19.95","img_full":null,"img_preview":"http://res.cloudinary.com/coopsverige/image/upload/b_white,fl_progressive,q_90,c_lpad,g_center,h_200,w_200/v1498134393/247777.jpg","brand":"Gevalia","eco":false,"compareprice":"2.00","type":"brygg","coffeinfree":false,"promo":false,"promo_amount":null,"promo_weight":null,"promo_price":null,"promo_compareprice":null,"promo_savings":null,"promo_label":null}]') } },
+                this.io.on('connect', () => {
+                    this.connected = true
+                })
+                this.io.on('data', dat => {
+                    this.staticData = dat
+                })
+                this.io.on('result', data => {
+                    this.results = data
+                    this.isLoading = false
+                })
+                this.io.on('frontpage', data => {
+                    this.frontpage = data
+                })
+                this.io.on('date', date => {
+                    this.date = date
+                })
+            }
             toggle(setting, value) {
                 var ind = this.query[setting].indexOf(value)
                 if (ind > -1) {
@@ -247,10 +233,8 @@
             query: {
                 handler() {
                     // console.log('change in query object')
-                    if(online){
-                        this.io.emit('query', this.query)
-                        this.isLoading = true
-                      }
+                    this.io.emit('query', this.query)
+                    this.isLoading = true
                     store.set('query', this.query)
                 },
                 deep: true
