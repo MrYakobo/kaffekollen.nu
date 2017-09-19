@@ -2,9 +2,12 @@
   "name": "kaffekollen.nu",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "lib": "lib"
+  },
+  "engines":{
+    "node":"8.5.0"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",

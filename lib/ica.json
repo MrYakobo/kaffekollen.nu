@@ -1,0 +1,335 @@
+{
+  "Stores": [{
+    "Id": 1880,
+    "MarketingName": "ICA Kvantum Kungsbacka",
+    "VisitingAddress": "Kungsmässan Varla Gård",
+    "VisitingCity": "KUNGSBACKA",
+    "PostalAddress": "Kungsmässan",
+    "PostCode": "43438",
+    "MunicipalityCode": "1384",
+    "MunicipalityName": "Kungsbacka",
+    "StoreCoordinateX": 5749328,
+    "StoreCoordinateY": 1207184,
+    "ProfileId": "02",
+    "TelephoneNumber": "0300-51150",
+    "LinkToWeb": "/butiker/kvantum/kungsbacka/ica-kvantum-kungsbacka-1880/start/",
+    "OpeningHours": "7-23",
+    "LinkToOffers": "/butiker/kvantum/kungsbacka/ica-kvantum-kungsbacka-1880/erbjudanden/",
+    "FacebookUrl": "https://www.facebook.com/IcaKvantumKungsbacka",
+    "StandardOpeningHours": [{
+      "Title": "Alla dagar",
+      "Hours": "7-23"
+    }],
+    "SpecialOpeningHours": [],
+    "StoreOnlineEngagement": [{
+      "Name": "Butikshemsida",
+      "Text": "Butikens hemsida",
+      "LinkText": "Butikens hemsida",
+      "LinkUrl": "/butiker/kvantum/kungsbacka/ica-kvantum-kungsbacka-1880/start/",
+      "OnlineType": 9
+    }, {
+      "Name": "Email",
+      "Text": "",
+      "LinkText": "",
+      "LinkUrl": "mailto:ulla-karin.andreasson@kvantum.ica.se",
+      "OnlineType": 6
+    }, {
+      "Name": "Facebook",
+      "Text": "Följ oss på Facebook",
+      "LinkText": "Följ oss på Facebook",
+      "LinkUrl": "https://www.facebook.com/IcaKvantumKungsbacka",
+      "OnlineType": 4
+    }, {
+      "Name": "Veckobrev",
+      "Text": "Vårat nyhetsbrev",
+      "LinkText": "Vårat nyhetsbrev",
+      "LinkUrl": "/butiker/kvantum/kungsbacka/ica-kvantum-kungsbacka-1880/nyhetsbrev/anmalan-veckobrev/",
+      "OnlineType": 7
+    }, {
+      "Name": "Erbjudandesida",
+      "Text": "Veckans erbjudande",
+      "LinkText": "Veckans erbjudande",
+      "LinkUrl": "/butiker/kvantum/kungsbacka/ica-kvantum-kungsbacka-1880/erbjudanden/",
+      "OnlineType": 10
+    }, {
+      "Name": "Matkasse",
+      "Text": "ICAs matkasse förenklar vardagen",
+      "LinkText": "Beställ matkasse",
+      "LinkUrl": "/butiker/kvantum/kungsbacka/ica-kvantum-kungsbacka-1880/matkassen/",
+      "OnlineType": 3
+    }, {
+      "Name": "Catering",
+      "Text": "Vi hjälper dig med festen",
+      "LinkText": "Beställ catering",
+      "LinkUrl": "/butiker/kvantum/kungsbacka/ica-kvantum-kungsbacka-1880/catering/",
+      "OnlineType": 2
+    }, {
+      "Name": "ICA Hemma",
+      "Text": "Allt för ditt hem & din fritid",
+      "LinkText": "Till icahemma.se",
+      "LinkUrl": "//www.icahemma.se/nara/grinstad",
+      "OnlineType": 8
+    }],
+    "StoreName": "Kungsbacka",
+    "ListingName": "KUNGSBACKA",
+    "StoreServicesLite": [{
+      "ServiceClass": "atgservice",
+      "ServiceName": "ATG-ombud",
+      "ServiceToolTip": "ATG-ombud",
+      "IsGrouped": false
+    }, {
+      "ServiceClass": "lightpostalservice",
+      "ServiceName": "Frimärke",
+      "ServiceToolTip": "Frimärke",
+      "IsGrouped": false
+    }, {
+      "ServiceClass": "bettingservice",
+      "ServiceName": "Spelombud",
+      "ServiceToolTip": "Spelombud",
+      "IsGrouped": false
+    }],
+    "StoreProfileName": "ICA Kvantum",
+    "StoreProfile": 1,
+    "StoreProfileDb": 2,
+    "ShortProfileName": "kvantum"
+  }, {
+    "Id": 12952,
+    "MarketingName": "Maxi ICA Stormarknad Kungsbacka",
+    "VisitingAddress": "Hedebrovägen 50",
+    "VisitingCity": "Kungsbacka",
+    "PostalAddress": "Hedebrovägen 50",
+    "PostCode": "43439",
+    "MunicipalityCode": "1384",
+    "MunicipalityName": "Kungsbacka",
+    "StoreCoordinateX": 575153,
+    "StoreCoordinateY": 1207488,
+    "ProfileId": "01",
+    "TelephoneNumber": "0300-336 00",
+    "LinkToWeb": "/butiker/maxi/kungsbacka/maxi-ica-stormarknad-kungsbacka-12952/start/",
+    "OpeningHours": "07-22",
+    "LinkToOffers": "/butiker/maxi/kungsbacka/maxi-ica-stormarknad-kungsbacka-12952/erbjudanden/",
+    "FacebookUrl": "https://www.facebook.com/ICAMaxiKungsbacka",
+    "StandardOpeningHours": [{
+      "Title": "Alla dagar",
+      "Hours": "07-22"
+    }],
+    "SpecialOpeningHours": [],
+    "StoreOnlineEngagement": [{
+      "Name": "Butikshemsida",
+      "Text": "Butikens hemsida",
+      "LinkText": "Butikens hemsida",
+      "LinkUrl": "/butiker/maxi/kungsbacka/maxi-ica-stormarknad-kungsbacka-12952/start/",
+      "OnlineType": 9
+    }, {
+      "Name": "Email",
+      "Text": "",
+      "LinkText": "",
+      "LinkUrl": "mailto:andreas.jendestig@maxi.ica.se",
+      "OnlineType": 6
+    }, {
+      "Name": "Facebook",
+      "Text": "Följ oss på Facebook",
+      "LinkText": "Följ oss på Facebook",
+      "LinkUrl": "https://www.facebook.com/ICAMaxiKungsbacka",
+      "OnlineType": 4
+    }, {
+      "Name": "Veckobrev",
+      "Text": "Vårat nyhetsbrev",
+      "LinkText": "Vårat nyhetsbrev",
+      "LinkUrl": "/butiker/maxi/kungsbacka/maxi-ica-stormarknad-kungsbacka-12952/butiken/butikens-veckobrev/",
+      "OnlineType": 7
+    }, {
+      "Name": "Erbjudandesida",
+      "Text": "Veckans erbjudande",
+      "LinkText": "Veckans erbjudande",
+      "LinkUrl": "/butiker/maxi/kungsbacka/maxi-ica-stormarknad-kungsbacka-12952/erbjudanden/",
+      "OnlineType": 10
+    }, {
+      "Name": "Matkasse",
+      "Text": "ICAs matkasse förenklar vardagen",
+      "LinkText": "Beställ matkasse",
+      "LinkUrl": "/butiker/maxi/kungsbacka/maxi-ica-stormarknad-kungsbacka-12952/matkassen/",
+      "OnlineType": 3
+    }, {
+      "Name": "Catering",
+      "Text": "Vi hjälper dig med festen",
+      "LinkText": "Beställ catering",
+      "LinkUrl": "/butiker/maxi/kungsbacka/maxi-ica-stormarknad-kungsbacka-12952/catering/",
+      "OnlineType": 2
+    }, {
+      "Name": "ICA Hemma",
+      "Text": "Allt för ditt hem & din fritid",
+      "LinkText": "Till icahemma.se",
+      "LinkUrl": "//www.icahemma.se/maxi/kungalv",
+      "OnlineType": 8
+    }, {
+      "Name": "E-handel",
+      "Text": "Handla hos oss på nätet",
+      "LinkText": "Handla mat",
+      "LinkUrl": "//www.ica.se/handla/maxi-ica-stormarknad-kungsbacka-id_12952/",
+      "OnlineType": 1
+    }],
+    "StoreName": "Kungsbacka",
+    "ListingName": "Kungsbacka",
+    "StoreServicesLite": [{
+      "ServiceClass": "atgservice",
+      "ServiceName": "ATG-ombud",
+      "ServiceToolTip": "ATG-ombud",
+      "IsGrouped": false
+    }, {
+      "ServiceClass": "bettingservice",
+      "ServiceName": "Spelombud",
+      "ServiceToolTip": "Spelombud",
+      "IsGrouped": false
+    }, {
+      "ServiceClass": "postalservice",
+      "ServiceName": "Utlämning",
+      "ServiceToolTip": "Utlämning",
+      "IsGrouped": false
+    }, {
+      "ServiceClass": "atmservice",
+      "ServiceName": "Uttagsautomat",
+      "ServiceToolTip": "Uttagsautomat",
+      "IsGrouped": false
+    }],
+    "StoreProfileName": "ICA Maxi",
+    "StoreProfile": 2,
+    "StoreProfileDb": 1,
+    "ShortProfileName": "maxi"
+  }, {
+    "Id": 1887,
+    "MarketingName": "ICA Supermarket Åsa",
+    "VisitingAddress": "Åsa Stationsväg 13",
+    "VisitingCity": "ÅSA",
+    "PostalAddress": "Åsa Stationsväg13",
+    "PostCode": "43955",
+    "MunicipalityCode": "1384",
+    "MunicipalityName": "Kungsbacka",
+    "StoreCoordinateX": 573509,
+    "StoreCoordinateY": 1212367,
+    "ProfileId": "03",
+    "TelephoneNumber": "0340-656010",
+    "LinkToWeb": "/butiker/supermarket/kungsbacka/ica-supermarket-asa-1887/start/",
+    "OpeningHours": "08-21",
+    "LinkToOffers": "/butiker/supermarket/kungsbacka/ica-supermarket-asa-1887/erbjudanden/",
+    "FacebookUrl": "https://www.facebook.com/ICA-Supermarket-%C3%85sa-207085733038658/?fref=ts",
+    "StandardOpeningHours": [{
+      "Title": "Alla dagar",
+      "Hours": "08-21"
+    }],
+    "SpecialOpeningHours": [],
+    "StoreOnlineEngagement": [{
+      "Name": "Butikshemsida",
+      "Text": "Butikens hemsida",
+      "LinkText": "Butikens hemsida",
+      "LinkUrl": "/butiker/supermarket/kungsbacka/ica-supermarket-asa-1887/start/",
+      "OnlineType": 9
+    }, {
+      "Name": "Facebook",
+      "Text": "Följ oss på Facebook",
+      "LinkText": "Följ oss på Facebook",
+      "LinkUrl": "https://www.facebook.com/ICA-Supermarket-%C3%85sa-207085733038658/?fref=ts",
+      "OnlineType": 4
+    }, {
+      "Name": "Veckobrev",
+      "Text": "Vårat nyhetsbrev",
+      "LinkText": "Vårat nyhetsbrev",
+      "LinkUrl": "/butiker/supermarket/kungsbacka/ica-supermarket-asa-1887/nyhetsbrev/anmalan-veckobrev/",
+      "OnlineType": 7
+    }, {
+      "Name": "Erbjudandesida",
+      "Text": "Veckans erbjudande",
+      "LinkText": "Veckans erbjudande",
+      "LinkUrl": "/butiker/supermarket/kungsbacka/ica-supermarket-asa-1887/erbjudanden/",
+      "OnlineType": 10
+    }, {
+      "Name": "ICA Hemma",
+      "Text": "Allt för ditt hem & din fritid",
+      "LinkText": "Till icahemma.se",
+      "LinkUrl": "//www.icahemma.se/nara/traffen-angelholm",
+      "OnlineType": 8
+    }],
+    "StoreName": "Åsa",
+    "ListingName": "ÅSA",
+    "StoreServicesLite": [{
+      "ServiceClass": "lightpostalservice",
+      "ServiceName": "Frimärke",
+      "ServiceToolTip": "Frimärke",
+      "IsGrouped": false
+    }],
+    "StoreProfileName": "ICA Supermarket",
+    "StoreProfile": 8,
+    "StoreProfileDb": 3,
+    "ShortProfileName": "supermarket"
+  }, {
+    "Id": 1883,
+    "MarketingName": "ICA Supermarket Vallda",
+    "VisitingAddress": "Egnahemsvägen 7",
+    "VisitingCity": "VALLDA",
+    "PostalAddress": "Egnahemsvägen 7",
+    "PostCode": "43490",
+    "MunicipalityCode": "1384",
+    "MunicipalityName": "Kungsbacka",
+    "StoreCoordinateX": 5747302,
+    "StoreCoordinateY": 1199462,
+    "ProfileId": "03",
+    "TelephoneNumber": "0300-25444",
+    "LinkToWeb": "/butiker/supermarket/kungsbacka/ica-supermarket-vallda-1883/start/",
+    "OpeningHours": "08-21",
+    "LinkToOffers": "/butiker/supermarket/kungsbacka/ica-supermarket-vallda-1883/erbjudanden/",
+    "FacebookUrl": "https://www.facebook.com/pages/ICA-Supermarket-Vallda/362683210515268",
+    "StandardOpeningHours": [{
+      "Title": "Alla dagar",
+      "Hours": "08-21"
+    }],
+    "SpecialOpeningHours": [],
+    "StoreOnlineEngagement": [{
+      "Name": "Butikshemsida",
+      "Text": "Butikens hemsida",
+      "LinkText": "Butikens hemsida",
+      "LinkUrl": "/butiker/supermarket/kungsbacka/ica-supermarket-vallda-1883/start/",
+      "OnlineType": 9
+    }, {
+      "Name": "Facebook",
+      "Text": "Följ oss på Facebook",
+      "LinkText": "Följ oss på Facebook",
+      "LinkUrl": "https://www.facebook.com/pages/ICA-Supermarket-Vallda/362683210515268",
+      "OnlineType": 4
+    }, {
+      "Name": "Veckobrev",
+      "Text": "Vårat nyhetsbrev",
+      "LinkText": "Vårat nyhetsbrev",
+      "LinkUrl": "/butiker/supermarket/kungsbacka/ica-supermarket-vallda-1883/nyhetsbrev/anmalan-veckobrev/",
+      "OnlineType": 7
+    }, {
+      "Name": "Erbjudandesida",
+      "Text": "Veckans erbjudande",
+      "LinkText": "Veckans erbjudande",
+      "LinkUrl": "/butiker/supermarket/kungsbacka/ica-supermarket-vallda-1883/erbjudanden/",
+      "OnlineType": 10
+    }],
+    "StoreName": "Vallda",
+    "ListingName": "VALLDA",
+    "StoreServicesLite": [{
+      "ServiceClass": "atgservice",
+      "ServiceName": "ATG-ombud",
+      "ServiceToolTip": "ATG-ombud",
+      "IsGrouped": false
+    }, {
+      "ServiceClass": "bettingservice",
+      "ServiceName": "Spelombud",
+      "ServiceToolTip": "Spelombud",
+      "IsGrouped": false
+    }, {
+      "ServiceClass": "postalservice",
+      "ServiceName": "Utlämning",
+      "ServiceToolTip": "Utlämning",
+      "IsGrouped": false
+    }],
+    "StoreProfileName": "ICA Supermarket",
+    "StoreProfile": 8,
+    "StoreProfileDb": 3,
+    "ShortProfileName": "supermarket"
+  }],
+  "TotalItems": 4
+}

@@ -112,7 +112,7 @@
         </main>
         <footer class="box columns">
             <h5 class="column subtitle is-5">Jakob Lindskog, {{year}}</h5>
-            <p class="column subtitle is-5 ">Senast uppdaterad för {{date}} sen</p>
+            <p class="column subtitle is-5 ">Senast uppdaterad för {{date}} sen.</p>
         </footer>
     </div>
 </template>
