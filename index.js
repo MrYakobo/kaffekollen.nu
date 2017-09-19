@@ -109,7 +109,8 @@ io.on('connection', (socket) => {
 app.use('/node_modules', express.static(__dirname + '/node_modules'))
 app.use('/dist', express.static(__dirname + '/dist'))
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT
+
 http.listen(port, () => {
   console.log(port)
 })

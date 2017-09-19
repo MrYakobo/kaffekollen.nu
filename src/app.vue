@@ -219,7 +219,7 @@
                 this.io.on('date', date => {
                     this.date = date
                 })
-            }
+            },
             toggle(setting, value) {
                 var ind = this.query[setting].indexOf(value)
                 if (ind > -1) {
