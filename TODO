@@ -1,0 +1,23 @@
+SQL:
+
+Fixa start/expire i promos. Detta kan göras mha nuvarande information.
+CREATE TABLE `${affär}.stores`, håller alla butiker ifrån respektive affär.
+För att detta skall vara möjligt måste dessa fetchas och sättas in i db.
+
+PROJEKTUPPLÄGG:
+
+Allt ska läsas från DB. Alltid. Allt fetchas och scrapas varje vecka och läses sen från databas.
+
+affär.js {
+    localStores(city): return all stores for a given city (read from db)
+    getCoffee(store): return coffeeprices for this store (read from db)
+}
+
+All affärspecifik parsing ska samlas i affär.js. Denna sammanställs sedan i:
+
+stores.js {
+    localStores(city): return all stores of different brands
+    getCoffee(store): return all coffeeprices for a store
+}
+
+Alltså så är stores.js en "modul-samlare" för samtliga affär.js-filer.

@@ -10,10 +10,6 @@ EDIT2: Använd information om svenska städer ifrån en betrodd databas. I det h
 
 ---
 
-Senare så skall detta överföras till att backend-skriptet dataminar respektive affär... kul att implementara :)))))
-
----
-
 Kategori för att välja affär/märke på affären (om man inte gillar Netto eller Ica Maxi, men gillar Hajen i Varberg)
 
 EDIT: Om man får välja varje enskild butik för sig så löser sig allt sånt här. Kanske ska man ha ett "välj alla inom radie X"-alternativ (smidigt om man bor i storstad och det finns hundra miljoner affärer att välja mellan)
@@ -64,6 +60,4 @@ Kaffekollen har ett par filer som ska uppdateras regelbundet (varje vecka)
 
 Och saker som behöver pollas en gång i veckan: 
 
-- Butiker i landet. Detta skall göras genom `${affär}.updateStores()`
-
-En dev-branch och master-branch är bra att ha för detta. Dev-branchen kan syncas till någon lokal server eller 
+- Butiker i landet. Detta skall göras genom `${affär}.updateStores()`, och alla kan uppdateras med `stores.updateStores()`

@@ -6,14 +6,14 @@
   "directories": {
     "lib": "lib"
   },
-  "engines":{
-    "node":"8.5.0"
+  "engines": {
+    "node": "8.5.0"
   },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "build:dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
-    "test": "node server.js",
+    "start": "node index.js",
     "build:db": "cd lib && node coop.js && node willys.js && node db2postgres.js && npm run pgimport",
     "pgimport": "sudo -u postgres psql coffeedb < lib/db.pgsql",
     "rebuild:db": "cd lib && node coop.js --download && node willys.js --download && node db2postgres.js && npm run pgimport"
@@ -34,7 +34,8 @@
     "socket.io-client": "^2.0.3",
     "squel": "^5.11.1",
     "store": "^2.0.12",
-    "vue": "^2.4.2"
+    "vue": "^2.4.2",
+    "x-ray": "^2.3.2"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",

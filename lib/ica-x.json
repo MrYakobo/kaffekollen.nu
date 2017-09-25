@@ -1,0 +1,1138 @@
+[
+  {
+    "linkToStore": "https://www.ica.se/butiker/ale/",
+    "city": "Ale"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/alingsas/",
+    "city": "Alingsås"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/alvesta/",
+    "city": "Alvesta"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/aneby/",
+    "city": "Aneby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/arboga/",
+    "city": "Arboga"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/arjeplog/",
+    "city": "Arjeplog"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/arvidsjaur/",
+    "city": "Arvidsjaur"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/arvika/",
+    "city": "Arvika"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/askersund/",
+    "city": "Askersund"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/avesta/",
+    "city": "Avesta"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/bengtsfors/",
+    "city": "Bengtsfors"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/berg/",
+    "city": "Berg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/bjurholm/",
+    "city": "Bjurholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/bjuv/",
+    "city": "Bjuv"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/boden/",
+    "city": "Boden"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/bollebygd/",
+    "city": "Bollebygd"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/bollnas/",
+    "city": "Bollnäs"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/borgholm/",
+    "city": "Borgholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/borlange/",
+    "city": "Borlänge"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/boras/",
+    "city": "Borås"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/botkyrka/",
+    "city": "Botkyrka"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/boxholm/",
+    "city": "Boxholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/bromolla/",
+    "city": "Bromölla"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/bracke/",
+    "city": "Bräcke"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/burlov/",
+    "city": "Burlöv"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/bastad/",
+    "city": "Båstad"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/danderyd/",
+    "city": "Danderyd"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/degerfors/",
+    "city": "Degerfors"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/dorotea/",
+    "city": "Dorotea"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ekero/",
+    "city": "Ekerö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/eksjo/",
+    "city": "Eksjö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/emmaboda/",
+    "city": "Emmaboda"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/enkoping/",
+    "city": "Enköping"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/eskilstuna/",
+    "city": "Eskilstuna"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/eslov/",
+    "city": "Eslöv"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/essunga/",
+    "city": "Essunga"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/fagersta/",
+    "city": "Fagersta"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/falkenberg/",
+    "city": "Falkenberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/falkoping/",
+    "city": "Falköping"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/falun/",
+    "city": "Falun"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/filipstad/",
+    "city": "Filipstad"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/finspang/",
+    "city": "Finspång"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/flen/",
+    "city": "Flen"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/forshaga/",
+    "city": "Forshaga"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/fargelanda/",
+    "city": "Färgelanda"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/gagnef/",
+    "city": "Gagnef"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/gislaved/",
+    "city": "Gislaved"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/gnesta/",
+    "city": "Gnesta"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/gnosjo/",
+    "city": "Gnosjö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/gotland/",
+    "city": "Gotland"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/grums/",
+    "city": "Grums"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/grastorp/",
+    "city": "Grästorp"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/gullspang/",
+    "city": "Gullspång"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/gallivare/",
+    "city": "Gällivare"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/gavle/",
+    "city": "Gävle"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/goteborg/",
+    "city": "Göteborg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/gotene/",
+    "city": "Götene"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/habo/",
+    "city": "Habo"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hagfors/",
+    "city": "Hagfors"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hallsberg/",
+    "city": "Hallsberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hallstahammar/",
+    "city": "Hallstahammar"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/halmstad/",
+    "city": "Halmstad"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hammaro/",
+    "city": "Hammarö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/haninge/",
+    "city": "Haninge"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/haparanda/",
+    "city": "Haparanda"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/heby/",
+    "city": "Heby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hedemora/",
+    "city": "Hedemora"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/helsingborg/",
+    "city": "Helsingborg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/herrljunga/",
+    "city": "Herrljunga"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hjo/",
+    "city": "Hjo"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hofors/",
+    "city": "Hofors"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/huddinge/",
+    "city": "Huddinge"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hudiksvall/",
+    "city": "Hudiksvall"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hultsfred/",
+    "city": "Hultsfred"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hylte/",
+    "city": "Hylte"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hallefors/",
+    "city": "Hällefors"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/harjedalen/",
+    "city": "Härjedalen"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/harnosand/",
+    "city": "Härnösand"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/harryda/",
+    "city": "Härryda"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hassleholm/",
+    "city": "Hässleholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hoganas/",
+    "city": "Höganäs"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hogsby/",
+    "city": "Högsby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/horby/",
+    "city": "Hörby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/hoor/",
+    "city": "Höör"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/jokkmokk/",
+    "city": "Jokkmokk"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/jarfalla/",
+    "city": "Järfälla"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/jonkoping/",
+    "city": "Jönköping"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kalix/",
+    "city": "Kalix"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kalmar/",
+    "city": "Kalmar"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/karlsborg/",
+    "city": "Karlsborg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/karlshamn/",
+    "city": "Karlshamn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/karlskoga/",
+    "city": "Karlskoga"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/karlskrona/",
+    "city": "Karlskrona"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/karlstad/",
+    "city": "Karlstad"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/katrineholm/",
+    "city": "Katrineholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kil/",
+    "city": "Kil"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kinda/",
+    "city": "Kinda"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kiruna/",
+    "city": "Kiruna"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/klippan/",
+    "city": "Klippan"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/knivsta/",
+    "city": "Knivsta"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kramfors/",
+    "city": "Kramfors"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kristianstad/",
+    "city": "Kristianstad"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kristinehamn/",
+    "city": "Kristinehamn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/krokom/",
+    "city": "Krokom"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kumla/",
+    "city": "Kumla"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kungsbacka/",
+    "city": "Kungsbacka"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kungsor/",
+    "city": "Kungsör"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kungalv/",
+    "city": "Kungälv"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/kavlinge/",
+    "city": "Kävlinge"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/koping/",
+    "city": "Köping"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/laholm/",
+    "city": "Laholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/landskrona/",
+    "city": "Landskrona"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/laxa/",
+    "city": "Laxå"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lekeberg/",
+    "city": "Lekeberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/leksand/",
+    "city": "Leksand"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lerum/",
+    "city": "Lerum"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lessebo/",
+    "city": "Lessebo"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lidingo/",
+    "city": "Lidingö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lidkoping/",
+    "city": "Lidköping"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lilla-edet/",
+    "city": "Lilla Edet"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lindesberg/",
+    "city": "Lindesberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/linkoping/",
+    "city": "Linköping"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ljungby/",
+    "city": "Ljungby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ljusdal/",
+    "city": "Ljusdal"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ljusnarsberg/",
+    "city": "Ljusnarsberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lomma/",
+    "city": "Lomma"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ludvika/",
+    "city": "Ludvika"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lulea/",
+    "city": "Luleå"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lund/",
+    "city": "Lund"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lycksele/",
+    "city": "Lycksele"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/lysekil/",
+    "city": "Lysekil"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/malmo/",
+    "city": "Malmö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/malung-salen/",
+    "city": "Malung-Sälen"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/mala/",
+    "city": "Malå"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/mariestad/",
+    "city": "Mariestad"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/mark/",
+    "city": "Mark"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/markaryd/",
+    "city": "Markaryd"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/mellerud/",
+    "city": "Mellerud"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/mjolby/",
+    "city": "Mjölby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/mora/",
+    "city": "Mora"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/motala/",
+    "city": "Motala"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/mullsjo/",
+    "city": "Mullsjö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/munkedal/",
+    "city": "Munkedal"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/munkfors/",
+    "city": "Munkfors"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/molndal/",
+    "city": "Mölndal"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/monsteras/",
+    "city": "Mönsterås"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/morbylanga/",
+    "city": "Mörbylånga"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/nacka/",
+    "city": "Nacka"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/nora/",
+    "city": "Nora"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/norberg/",
+    "city": "Norberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/nordanstig/",
+    "city": "Nordanstig"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/nordmaling/",
+    "city": "Nordmaling"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/norrkoping/",
+    "city": "Norrköping"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/norrtalje/",
+    "city": "Norrtälje"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/norsjo/",
+    "city": "Norsjö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/nybro/",
+    "city": "Nybro"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/nykvarn/",
+    "city": "Nykvarn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/nykoping/",
+    "city": "Nyköping"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/nynashamn/",
+    "city": "Nynäshamn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/nassjo/",
+    "city": "Nässjö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ockelbo/",
+    "city": "Ockelbo"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/olofstrom/",
+    "city": "Olofström"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/orsa/",
+    "city": "Orsa"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/orust/",
+    "city": "Orust"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/osby/",
+    "city": "Osby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/oskarshamn/",
+    "city": "Oskarshamn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ovanaker/",
+    "city": "Ovanåker"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/oxelosund/",
+    "city": "Oxelösund"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/pajala/",
+    "city": "Pajala"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/partille/",
+    "city": "Partille"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/perstorp/",
+    "city": "Perstorp"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/pitea/",
+    "city": "Piteå"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ragunda/",
+    "city": "Ragunda"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/robertsfors/",
+    "city": "Robertsfors"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ronneby/",
+    "city": "Ronneby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/rattvik/",
+    "city": "Rättvik"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sala/",
+    "city": "Sala"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/salem/",
+    "city": "Salem"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sandviken/",
+    "city": "Sandviken"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sigtuna/",
+    "city": "Sigtuna"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/simrishamn/",
+    "city": "Simrishamn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sjobo/",
+    "city": "Sjöbo"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/skara/",
+    "city": "Skara"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/skelleftea/",
+    "city": "Skellefteå"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/skinnskatteberg/",
+    "city": "Skinnskatteberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/skurup/",
+    "city": "Skurup"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/skovde/",
+    "city": "Skövde"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/smedjebacken/",
+    "city": "Smedjebacken"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/solleftea/",
+    "city": "Sollefteå"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sollentuna/",
+    "city": "Sollentuna"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/solna/",
+    "city": "Solna"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sorsele/",
+    "city": "Sorsele"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sotenas/",
+    "city": "Sotenäs"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/staffanstorp/",
+    "city": "Staffanstorp"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/stenungsund/",
+    "city": "Stenungsund"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/stockholm/",
+    "city": "Stockholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/storfors/",
+    "city": "Storfors"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/storuman/",
+    "city": "Storuman"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/strangnas/",
+    "city": "Strängnäs"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/stromstad/",
+    "city": "Strömstad"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/stromsund/",
+    "city": "Strömsund"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sundbyberg/",
+    "city": "Sundbyberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sundsvall/",
+    "city": "Sundsvall"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sunne/",
+    "city": "Sunne"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/surahammar/",
+    "city": "Surahammar"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/svalov/",
+    "city": "Svalöv"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/svedala/",
+    "city": "Svedala"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/svenljunga/",
+    "city": "Svenljunga"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/saffle/",
+    "city": "Säffle"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sater/",
+    "city": "Säter"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/savsjo/",
+    "city": "Sävsjö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/soderhamn/",
+    "city": "Söderhamn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/soderkoping/",
+    "city": "Söderköping"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/sodertalje/",
+    "city": "Södertälje"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/solvesborg/",
+    "city": "Sölvesborg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tanum/",
+    "city": "Tanum"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tibro/",
+    "city": "Tibro"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tidaholm/",
+    "city": "Tidaholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tierp/",
+    "city": "Tierp"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/timra/",
+    "city": "Timrå"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tingsryd/",
+    "city": "Tingsryd"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tjorn/",
+    "city": "Tjörn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tomelilla/",
+    "city": "Tomelilla"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/torsby/",
+    "city": "Torsby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/torsas/",
+    "city": "Torsås"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tranemo/",
+    "city": "Tranemo"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tranas/",
+    "city": "Tranås"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/trelleborg/",
+    "city": "Trelleborg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/trollhattan/",
+    "city": "Trollhättan"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/trosa/",
+    "city": "Trosa"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/tyreso/",
+    "city": "Tyresö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/taby/",
+    "city": "Täby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/toreboda/",
+    "city": "Töreboda"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/uddevalla/",
+    "city": "Uddevalla"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ulricehamn/",
+    "city": "Ulricehamn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/umea/",
+    "city": "Umeå"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/upplands-vasby/",
+    "city": "Upplands Väsby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/upplands-bro/",
+    "city": "Upplands-Bro"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/uppsala/",
+    "city": "Uppsala"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/uppvidinge/",
+    "city": "Uppvidinge"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vaggeryd/",
+    "city": "Vaggeryd"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/valdemarsvik/",
+    "city": "Valdemarsvik"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vallentuna/",
+    "city": "Vallentuna"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vansbro/",
+    "city": "Vansbro"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vara/",
+    "city": "Vara"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/varberg/",
+    "city": "Varberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vaxholm/",
+    "city": "Vaxholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vellinge/",
+    "city": "Vellinge"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vetlanda/",
+    "city": "Vetlanda"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vilhelmina/",
+    "city": "Vilhelmina"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vimmerby/",
+    "city": "Vimmerby"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vindeln/",
+    "city": "Vindeln"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vingaker/",
+    "city": "Vingåker"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vargarda/",
+    "city": "Vårgårda"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vanersborg/",
+    "city": "Vänersborg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vannas/",
+    "city": "Vännäs"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/varmdo/",
+    "city": "Värmdö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/varnamo/",
+    "city": "Värnamo"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vastervik/",
+    "city": "Västervik"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vasteras/",
+    "city": "Västerås"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/vaxjo/",
+    "city": "Växjö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ystad/",
+    "city": "Ystad"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/amal/",
+    "city": "Åmål"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ange/",
+    "city": "Ånge"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/are/",
+    "city": "Åre"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/arjang/",
+    "city": "Årjäng"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/asele/",
+    "city": "Åsele"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/astorp/",
+    "city": "Åstorp"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/atvidaberg/",
+    "city": "Åtvidaberg"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/almhult/",
+    "city": "Älmhult"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/alvdalen/",
+    "city": "Älvdalen"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/alvsbyn/",
+    "city": "Älvsbyn"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/angelholm/",
+    "city": "Ängelholm"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ockero/",
+    "city": "Öckerö"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/odeshog/",
+    "city": "Ödeshög"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/orebro/",
+    "city": "Örebro"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/orkelljunga/",
+    "city": "Örkelljunga"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ornskoldsvik/",
+    "city": "Örnsköldsvik"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ostersund/",
+    "city": "Östersund"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/osteraker/",
+    "city": "Österåker"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/osthammar/",
+    "city": "Östhammar"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/ostra-goinge/",
+    "city": "Östra Göinge"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/overkalix/",
+    "city": "Överkalix"
+  },
+  {
+    "linkToStore": "https://www.ica.se/butiker/overtornea/",
+    "city": "Övertorneå"
+  }
+]

@@ -11,7 +11,7 @@ En db-fil ska innehålla följande information:
     compareprice
     eco
     type
-    coffeinfree
+    coffeinfree -
     promo?: {
         amount
         weight
@@ -19,4 +19,7 @@ En db-fil ska innehålla följande information:
         price
         savings
         label
+        begin
+        expire
+        membersonly
     }
