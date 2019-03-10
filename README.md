@@ -1,4 +1,3 @@
-# (dead project)
 # Kaffekollen.nu - jämför kaffepriser på ett sexigt sätt
 
 Kaffekollen.nu är en webbapp som är till för att göra det enklare att hitta lokala kaffepriser i din hemstad.
